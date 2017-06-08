@@ -102,6 +102,7 @@ a:focus, a:hover {
 .jumbotron.jumbo_header {
   height:500px;
   margin-bottom: 50px;
+  background-attachment: fixed;
 }
 
 .container.article_container {
@@ -183,7 +184,7 @@ ol, ul {
 #parents_header {
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:0 60%;
+  background-position:0 80%;
   background-image:url("../../assets/img/london-scout-41030.jpg");
 }
 
@@ -266,4 +267,32 @@ ol, ul {
 .navigation-clean-button .dropdown-menu > .active > a:focus, .navigation-clean-button .dropdown-menu > .active > a:hover {
     background: #c87b7b;
     color: inherit;
+}
+
+#home_header {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:0 70%;
+  background-image:url("../../assets/img/fake_nude.jpg");
+}
+
+#helpline_header_image{
+  background-image:url("../img/priscilla-du-preez-101757.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: 0 40%;
+}
+
+#campaign_header_image{
+    background-image: url("../img/christal-yuen-69722.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 70%;
+}
+
+#stories_header_image{
+    background-image: url("../img/matthew-henry-794.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
 }
