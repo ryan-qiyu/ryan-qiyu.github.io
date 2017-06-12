@@ -272,7 +272,7 @@ ol, ul {
 #home_header {
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:0 70%;
+  background-position:center 70%;
   background-image:url("../../assets/img/fake_nude.jpg");
 }
 
