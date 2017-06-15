@@ -294,14 +294,6 @@ ol, ul {
     background-repeat: no-repeat;
     background-position: 0 70%;
 }
-
-#stories_header_image{
-    background-image: url("../img/matthew-henry-794.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-}
-
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -337,4 +329,12 @@ ol, ul {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp
 }
+
+#stories_header_image{
+    background-image: url("../img/matthew-henry-794.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
 
