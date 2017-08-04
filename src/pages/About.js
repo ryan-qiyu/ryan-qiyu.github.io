@@ -22,7 +22,7 @@ export default class About extends React.Component{
             <h2>About Me</h2>
             <div class="row" id="profile_row">
                 <div class="col-md-6">
-                    <div class="profile_image_container"><img src="../assets/img/P7130218.jpg" class="profile_photo"/>
+                    <div class="profile_image_container"><img src="public/assets/img/P7130218.jpg" class="profile_photo"/>
                         <div class="profile_triangle"></div>
                     </div>
                 </div>

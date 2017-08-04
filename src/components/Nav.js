@@ -15,7 +15,7 @@ export default class Nav extends React.Component{
                  <div class="collapse navbar-collapse" id="navcol-1">
                      <ul class="nav navbar-nav navbar-right">
                          <li class={home_active} role="presentation">
-                         <IndexLink to="/" href="#"><img src="../assets/img/chainlyricsmall.png" id="logo"/>HOME </IndexLink>
+                         <IndexLink to="/" href="#"><img src="public/assets/img/chainlyricsmall.png" id="logo"/>HOME </IndexLink>
                          </li>
                          <li class={about_active} role="presentation"><Link to="about" href="about.html">ABOUT </Link></li>
                      </ul>
