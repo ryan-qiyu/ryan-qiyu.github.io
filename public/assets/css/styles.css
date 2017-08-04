@@ -1,0 +1,279 @@
+@font-face {
+  font-family:"Blogger-Sans";
+  src: url(../fonts/BloggerSans.TTF);
+}
+
+.footer_container{
+  padding: 0 0;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.audio_icon{
+  font-size: 20px;
+  color: #e93f76;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  cursor:pointer;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.grey_bg{
+  background-color: #f2f5f8;
+}
+
+.jumbotron .container {
+  margin-top:200px;
+  margin-left:15%;
+}
+
+.jumbotron.jumbo_header {
+  height:500px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#lyrics{
+    max-width: 800px;
+    float: right;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+nav li{
+  font-size: 18px;
+}
+
+.col-md-6.profile_colomn {
+  height:100%;
+}
+
+#profile_row {
+  height:300px;
+}
+
+.profile_description {
+  padding:20px;
+  position:relative;
+  top:50%;
+  transform:translate(0,-50%);
+}
+
+.profile_triangle {
+  width:0;
+  height:0;
+  border-top:300px #ffffff solid;
+  border-left:250px transparent solid;
+  position:relative;
+  top:-320px;
+  border-right:0;
+  left:200px;
+}
+
+.profile_photo {
+  width:500px;
+  margin-top:-60px;
+  margin-left:-50px;
+}
+
+#dev_profile {
+  margin-top:50px;
+}
+
+.profile_image_container {
+  width:500px;
+  height:300px;
+  overflow:hidden;
+}
+
+#intro {
+  font-style:italic;
+}
+
+#about_container {
+  padding:30px 80px;
+}
+
+p {
+  font-size:20px;
+  font-family: Arial;
+}
+
+#about h1 {
+  font-family:blogger-sans;
+}
+
+#about {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:0 60%;
+  background-image:url("../../assets/img/kelly-sikkema-216021.jpg");
+  background-attachment: fixed;
+  color:white;
+}
+
+#generate_button {
+  margin-top:20px;
+}
+
+.v_bar {
+  border-left:10px solid #E93F76;
+  padding-left:20px;
+}
+
+.chat.pink {
+  background-color:#e93f76;
+  color:white;
+}
+
+.chat.grey {
+  background-color:#f2f5f8;
+  color:#2B2B2B;
+}
+
+.main_container {
+  padding:50px 0 0 0;
+  background-color: white !important;
+}
+
+.lyrics_text {
+  margin:30px 50px;
+  font-family:Arial;
+  font-size:20px;
+  /*color:#2B2B2B;*/
+  line-height:35px;
+}
+
+.chat_right_triangle {
+  width:0;
+  height:0;
+  border-top:30px #e93f76 solid;
+  border-left:30px transparent solid;
+  position:relative;
+  right:-30px;
+  border-right:30px transparent solid;
+  float:right;
+  margin-bottom:-30px;
+}
+
+.chat_left_triangle {
+  width:0;
+  /*height:0;*/
+  border-top:30px #f2f5f8 solid;
+  border-left:30px transparent solid;
+  position:relative;
+  left:-30px;
+  border-right:30px transparent solid;
+  margin-bottom:-30px;
+}
+
+.chat {
+  min-width:75%;
+  background-color:#f2f5f8;
+  /*height:200px;*/
+  float:right;
+  margin:40px 0 0 0;
+  border-radius:20px;
+  max-width:80%;
+  /*padding:30px 0;*/
+}
+
+#actual_song {
+  margin:-100px 70px;
+  position:relative;
+  top:-80px;
+  padding-right: 50px;
+}
+
+.subtitle {
+  font-family:source sans pro;
+  font-size:20px;
+  color:#95989A;
+}
+
+#song_heading {
+  font-family:mistral;
+  color:#e93f76;
+  font-size:70px;
+  text-transform:none;
+}
+
+#song_title {
+  width:500px;
+  float:right;
+  text-align:right;
+  padding-right:50px;
+}
+
+#song {
+  font-family:mistral;
+  font-size:30px;
+}
+
+#song_input {
+  border-style:none;
+  border-bottom:2px solid #4F4F4f;
+  width:200px;
+  height:30px;
+  font-family: "Arial";
+  font-size:20px;
+  font-style: italic;
+}
+
+#every {
+  font-family:"Segoe UI";
+  font-size:25px;
+}
+
+#literally {
+  font-family:Blogger-sans;
+  font-size:30px;
+}
+
+#input {
+  max-width:300PX;
+  margin:20px 50px 0 50px;
+  /*border-left:10px solid #E93F76;*/
+  padding-left:50px;
+}
+
+#logo {
+  width:30px;
+  margin:-8px 30px 0 0;
+  /*position:relative;*/
+}
+
+.navbar.navbar-default.navigation-clean {
+  background-color:#e93f76;
+  color:white;
+  font-family:Blogger-Sans;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+  color:#fff;
+  background-color:#e93f76;
+  border-color:#c7254e;
+}
+
